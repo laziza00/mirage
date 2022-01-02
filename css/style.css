@@ -60,7 +60,7 @@ body {
     width: 532px;
     height: 532px;
     background-image: url('../images/hero-img.svg');
-    background-position: left center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 .hero-hr-box{
@@ -72,6 +72,8 @@ body {
     height: 3px;
     background: #f78cb6;
     border: none;
+    justify-content: end;
+    margin-bottom: auto;
 }
 .hero-span-text{
     font-style: normal;
@@ -79,4 +81,34 @@ body {
     font-size: 28px;
     line-height: 40px;
     color: #f78cb6;
+    margin-bottom: 15px;
+}
+.hero-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 74px;
+    color: #56597A;
+    width: 650px;
+    margin-bottom: 31px;
+}
+.text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #919299;
+}
+.hero-text{
+    margin-bottom: 42px;
+}
+.hero-link{
+    background: #F78BB6;
+    border-radius: 4px;
+    padding: 17px 22px;
+    color: #fff;
+}
+.hero-arrow{
+    margin-left: 19px;
 }

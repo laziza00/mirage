@@ -8,12 +8,75 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-weight: 700;
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-family: '', sans-serif;
     background-color: #fff;
 } 
   
 .container {
-    padding: 0 45px;
+    padding: 0 15px;
     width: 1200px;
     margin: auto;
+}
+.style-none{
+    list-style-type: none;
+}
+.text-none{
+    text-decoration: none;
+}
+.header-inner{
+    padding-top: 40px;
+}
+.nav-item:not(:last-child){
+    margin-right: 71px;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #aaaaab;
+}
+.nav-link.active{
+    color: #56597A;
+}
+.nav-btn{
+    margin-left: auto;
+    border: none;
+    cursor: pointer;
+}
+
+#hero-section{
+    background-size: 882px 775px;
+    background-image: url('../images/hero-back-1.svg');
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.hero-inner{
+    padding-top: 110px;
+}
+.hero-img{
+    content: '';
+    display: block;
+    width: 532px;
+    height: 532px;
+    background-image: url('../images/hero-img.svg');
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.hero-hr-box{
+    display: flex;
+}
+.hero-hr{
+    display: block;
+    width: 36px;
+    height: 3px;
+    background: #f78cb6;
+    border: none;
+}
+.hero-span-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #f78cb6;
 }

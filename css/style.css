@@ -336,24 +336,15 @@ body {
     outline: none;
     border: none;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 160px;
 }
 .email{
     border: none;
     outline: none;
+    margin-right: 237px;
 }
-.email::before{
-    /* content: '';
-    display: block;
-    width: 19px;
-    height: 19px;
-    background-image: url('../images/input-img.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-right: 16px; */
-}
+
 .input-box{
     text-align: center;
     margin: 0 auto;
@@ -368,4 +359,8 @@ body {
 }
 .subs-content{
     margin-left: auto;
+}
+.mail-img{
+    align-items: center;
+    margin-right: 16px;
 }

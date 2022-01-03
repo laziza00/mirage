@@ -136,11 +136,10 @@ body {
     width: 270px;
     padding: 53px 23px 23px 23px;
 }
-.brand{
+.serv-item:nth-child(3){
     background-color: #F78CB6;
-    height: 344px;
-    width: 270px;
     color: #fff;
+    height: 344px;
 }
 .list-serv-title{
     font-style: normal;
@@ -157,45 +156,33 @@ body {
     width: 224px;
     margin: 0 auto;
 }
-.design::before{
+.brand:before{
     content: '';
     display: block;
+    background-repeat: no-repeat;
+    margin-bottom: 42px;
+    text-align: center;
+}
+.design::before{   
     width: 50px;
     height: 50px;
     background-image: url('../images/design.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-bottom: 42px;
+
 }
 .develop::before{
-    content: '';
-    display: block;
     width: 50px;
     height: 50px;
     background-image: url('../images/develop.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-bottom: 42px;
 }
 .brand-title::before{
-    content: '';
-    display: block;
     width: 48px;
     height: 48px;
     background-image: url('../images/brand.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-bottom: 42px;
 }
 .illustration::before{
-    content: '';
-    display: block;
     width: 44px;
     height: 44px;
     background-image: url('../images/illustration.svg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    margin-bottom: 42px;
 }
 .brand-title{
     color: #fff;
@@ -334,29 +321,38 @@ body {
 }
 
 .subs-img{   
-    content: '';
-    display: block;
     width: 250px;
     height: 250px;
     background-image: url('../images/mail-subs.svg');
     background-position: left bottom;
-    background-repeat: no-repeat;
 }
 .input-label{
-    padding: 28px 13px 22px 29px;
-    background: #FFFFFF;
+    background: #fff;
     border-radius: 4px;
+    padding: 28px 13px 22px 29px;
     width: 706px;
+    height: 82px;
     box-shadow: 15px 15px 15px 1px rgba(169, 180, 189, 0.411);
     outline: none;
     border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
 }
-.input-label::before{
+.email{
+    border: none;
+    outline: none;
+}
+.email::before{
+    /* content: '';
+    display: block;
     width: 19px;
     height: 19px;
     background-image: url('../images/input-img.svg');
     background-position: center center;
-    margin-right: 16px;
+    background-repeat: no-repeat;
+    margin-right: 16px; */
 }
 .input-box{
     text-align: center;
@@ -364,10 +360,11 @@ body {
     margin-bottom: 160px;
 }
 .btn{
-    padding: 12px 19px 12px 17px;
+    padding: 14px 13px 14px 0;
     width: 178px;
     height: 54px;
     border: none;
+    align-items: center;
 }
 .subs-content{
     margin-left: auto;

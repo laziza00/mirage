@@ -43,6 +43,7 @@ body {
     margin-left: auto;
     border: none;
     cursor: pointer;
+    background-color: #fff;
 }
 
 #hero-section{
@@ -136,6 +137,7 @@ body {
     width: 270px;
     height: 307px;
     padding: 53px 23px 23px 23px;
+    text-align: center;
 }
 .serv-item:nth-child(3){
     background-color: #F78CB6;
@@ -148,7 +150,7 @@ body {
     font-size: 34px;
     line-height: 72px;
     color: #56597A;
-    width: 108px;
+    width: 208px;
     text-align: center;
 }
 .serv-text{
@@ -161,8 +163,9 @@ body {
     content: '';
     display: block;
     background-repeat: no-repeat;
-    margin-bottom: 42px;
     text-align: center;
+    margin: 0 auto;
+    margin-bottom: 42px;
 }
 .design::before{   
     width: 50px;

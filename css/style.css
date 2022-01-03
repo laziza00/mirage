@@ -365,3 +365,29 @@ body {
     align-items: center;
     margin-right: 16px;
 }
+#footer-section{
+    content: '';
+    display: block;
+    background-image: url('../images/footer-img.svg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.foot-img::after{
+    content: '';
+    display: block;
+    width: 41px;
+    height: 41px;
+    background-repeat: no-repeat;
+}
+.insta:after{
+    background-image: url('../images/insta.svg');
+}
+.twitter:after{
+    background-image: url('../images/twitter.svg');
+}
+.youtube:after{
+    background-image: url('../images/youtube.svg');
+}
+.facebbok:after{
+    background-image: url('../images/facebook.svg');
+}

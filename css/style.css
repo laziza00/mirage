@@ -359,6 +359,7 @@ body {
     height: 54px;
     border: none;
     align-items: center;
+    cursor: pointer;
 }
 .subs-content{
     margin-left: auto;

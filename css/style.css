@@ -353,6 +353,7 @@ body {
     margin: 0 auto;
     margin-bottom: 160px;
 }
+
 .btn{
     padding: 14px 13px 14px 0;
     width: 178px;
@@ -469,4 +470,7 @@ body {
     background: #F78CB6;
     border: none;
     outline: none;
+}
+.spider-img{
+    margin-right: 13px;
 }
